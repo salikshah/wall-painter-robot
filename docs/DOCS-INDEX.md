@@ -9,8 +9,8 @@ parallel `hw/` stack is written for real Feetech STS3215 servos and runs the
 same control law in dry rehearsal.
 
 **What this file is.** A map of every document, deliverable, script and
-recorded run, plus the commands that regenerate them. Start here after the
-README.
+recorded run, plus the commands that regenerate them. Start here after
+`HANDOFF.md` and the README.
 
 ---
 
@@ -18,12 +18,14 @@ README.
 
 | Order | File | Why |
 |---|---|---|
+| 0 | `HANDOFF.md` | Restart point: live URLs, open work and the first commands. |
 | 1 | `README.md` | The concept, results, quick start and honest limits. |
 | 2 | `docs/guide.md` | A 14-section builder's guide, from zero to a real wall. |
 | 3 | `docs/pitch.md` | The one-page version. |
 | 4 | `ROADMAP.md` | Simulation, prototype, product — stage by stage. |
 | 5 | `hw/README.md` | Wiring, calibration and the first hour with a real arm. |
 | 6 | `sim/control.py` | The force loop. It is short and it is the heart. |
+| 7 | `CHANGELOG.md` | Public release history. |
 
 ---
 
@@ -38,6 +40,8 @@ README.
 | One-page summary | `docs/pitch.md` | Investor / collaborator friendly. |
 | Builder's guide | `docs/guide.md` | Long-form tutorial with exercises. |
 | Writing rules | `docs/writing.md` | Voice, grammar and claim discipline. |
+| Restart notes | `HANDOFF.md` | Live URLs, open tasks and YouTube upload copy. |
+| Release history | `CHANGELOG.md` | Public changes and verified release state. |
 
 The film is the published cut and carries both comparisons. The 50-second
 demo masters are local working files (git-ignored); §6 rebuilds them.
@@ -265,3 +269,5 @@ data, figures, cards and final videos.
 3. Read `sim/control.py` — the force loop is the heart and it is short.
 4. Read `assets/so101.urdf` before touching `build_model.py`.
 5. Check §7 here before changing anything visual, and keep the fingerprints.
+6. Returning after a pause? Start with `HANDOFF.md`, then run its restart
+   checklist.

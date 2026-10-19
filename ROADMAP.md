@@ -1,5 +1,8 @@
 # WallFin — Roadmap
 
+> **Paused 19 October 2026.** Public v1.0.0 is live. Restart from
+> [HANDOFF.md](HANDOFF.md).
+
 What this is: a proof-of-concept robot that helps finish walls. It exists in
 simulation; the software is ready for a real arm.
 

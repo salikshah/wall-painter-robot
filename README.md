@@ -19,6 +19,8 @@
 <p align="center"><a href="https://salikshah.github.io/wall-painter-robot/wallfin_final_film.mp4"><b>Watch the 1:48 film</b></a></p>
 
 > **Status — October 2026.** WallFin is a proof of concept. The simulation is complete and reproducible; the real-arm code is dry-rehearsed. You can build a physical prototype in ~3 months with a small team, or vibe-manufacture it all by yourself, followed by dust extraction, calibration, safety and pilots.
+>
+> **Project state:** paused 19 October 2026. Restart from [HANDOFF.md](HANDOFF.md); release history is in [CHANGELOG.md](CHANGELOG.md).
 
 ## What it does
 
@@ -274,6 +276,8 @@ Dust, calibration, load-sign setup, real servo friction, the rail driver, safety
 ```text
 .
 ├── README.md                 this file
+├── HANDOFF.md                restart point and open work
+├── CHANGELOG.md              public release history
 ├── ROADMAP.md                the plan, stage by stage
 ├── LICENSE / NOTICE          Apache-2.0 + third-party attribution
 ├── docs/

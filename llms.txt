@@ -9,6 +9,8 @@ Be precise about status: the demo sands drywall. Painting is the roadmap, not a 
 ## Start here
 
 - [README](README.md): what it is, results, quick start, repo layout, FAQ
+- [Handoff](HANDOFF.md): restart point, verification commands and open items
+- [Changelog](CHANGELOG.md): public release history
 - [Builder's guide](docs/guide.md): 14 sections, from zero to a real wall
 - [Launch film](docs/wallfin_final_film.mp4): 1:48, 1080p50, with sound
 - [One-page pitch](docs/pitch.md)

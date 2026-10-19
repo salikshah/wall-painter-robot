@@ -21,8 +21,8 @@ PREFIX = 'wall-painter-robot/'
 
 ENTRIES = [
     # top level
-    '.gitignore', 'CITATION.cff', 'LICENSE', 'NOTICE', 'README.md',
-    'ROADMAP.md', 'llms.txt',
+    '.gitignore', 'CITATION.cff', 'CHANGELOG.md', 'HANDOFF.md', 'LICENSE',
+    'NOTICE', 'README.md', 'ROADMAP.md', 'llms.txt',
     # assets (the URDF carries the link inertials, so it must ship)
     'assets/floor_tex.png', 'assets/grit_tex.png',
     'assets/licenses/SO101-Apache-2.0.txt',
