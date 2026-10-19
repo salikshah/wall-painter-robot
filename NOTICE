@@ -1,0 +1,22 @@
+WallFin — Copyright 2026 Salik Shah
+
+Third-party components:
+
+1. SO-101 / SO-ARM100 robot description (assets/so101.urdf)
+   Copyright TheRobotStudio (Laurent Genoud)
+   Licensed under the Apache License, Version 2.0.
+   License text: assets/licenses/SO101-Apache-2.0.txt
+
+2. MuJoCo (runtime dependency; not vendored here)
+   Copyright Google DeepMind
+   Licensed under the Apache License, Version 2.0.
+
+3. MOSS x Jev (https://github.com/metrox-eth/moss-jev)
+   Copyright 2026 Laurent Genoud (Show Robotics)
+   Licensed under the Apache License, Version 2.0.
+   Adapted code: live/physics.py (IK core) and live/build_model.py
+   (kinematic build pattern), used in sim/robot.py and sim/build_model.py.
+   Upstream project: https://github.com/metrox-eth/moss
+
+All other files in this repository are original work by Salik Shah for this
+project.

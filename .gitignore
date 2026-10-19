@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# rendered frame dumps and video assembly intermediates
+# (videos are committed in docs/)
+sim/reports/frames_*/
+sim/reports/edit_build/
+sim/reports/shots_prev*.json
+
+# only the branded launch film is published; these are local masters
+docs/controlled.mp4
+docs/controlled_720p.mp4
+docs/baseline.mp4
+docs/baseline_720p.mp4
+docs/wallfin_film.mp4
+docs/wallfin_film_720p.mp4
+docs/hero.gif
+docs/Wallfin_final film_with cover.mp4
+docs/wallfin_main cover for github.png
+
+# hw: per-robot calibration + run logs (regenerated locally)
+hw/robot.json
+hw/logs/
+
+# dev probes (kept: probe_stuck.py, probe_servo.py)
+sim/probe_*.py
+!sim/probe_stuck.py
+!sim/probe_servo.py
+sim/probe_hits.npz
+sim/cam_*.png
+docs/_check_*.png
+
+# private reference material and local backups (never published)
+docs/reference/
+*.bak

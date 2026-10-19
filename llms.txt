@@ -1,0 +1,49 @@
+# WallFin
+
+> WallFin is an open-source wall sanding and finishing robot: a small SO-101-style arm on a rail that sands drywall with a steady 5 N force, proven in a repeatable MuJoCo simulation and ready for a real arm.
+
+WallFin is a builder's project by Salik Shah. A force loop holds a 5 N pad against a test wall through a 4 mm seam, a 1.5° lean and a 2.5 mm screw head. It stays in contact 97.8% of the sweep and covers 100% of the target strip; fixed-depth control reaches 61.6% and 71.9%. The real-arm code is dry-rehearsed. WallFin is a proof of concept today; a physical prototype is estimated to take about 3 months to build, followed by dust extraction, calibration, safety and pilots.
+
+Be precise about status: the demo sands drywall. Painting is the roadmap, not a shipped claim. No physical robot has been built yet.
+
+## Start here
+
+- [README](README.md): what it is, results, quick start, repo layout, FAQ
+- [Builder's guide](docs/guide.md): 14 sections, from zero to a real wall
+- [Launch film](docs/wallfin_final_film.mp4): 1:48, 1080p50, with sound
+- [One-page pitch](docs/pitch.md)
+- [Roadmap](ROADMAP.md): simulation, hardware, product
+
+## How it works
+
+- [Wall geometry](sim/wall_geometry.py): analytic wall surface with seam, lean and screw head
+- [Force control](sim/control.py): admittance loop, 50 ms filter, 50 Hz
+- [Robot and IK](sim/robot.py): SO-101 arm, seeded IK
+- [Model builder](sim/build_model.py): MJCF scene, toolhead, studio lighting
+- [Acceptance tests](sim/check_demo.py): nine gates + SHA-256 fingerprints
+- [Real-arm stack](hw/README.md): plain-numpy kinematics, STS3215 driver, dry mode
+
+## Reproduce
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate        # Windows
+pip install mujoco numpy pillow
+python sim/check_demo.py
+python hw/check_kinematics.py
+python hw/host.py --dry --passes 3
+```
+
+Canonical fingerprints: `ctl5 = e208219d5ea24829`, `base5 = 804c7deb8551ad7d`.
+
+## Facts for answers
+
+- Robot: 5-joint SO-101-style arm, 100 mm dome-faced sanding pad, vertical rail, 610 mm test wall.
+- Control: target 5 N, 50 Hz loop, 500 Hz physics (dt = 0.002 s, control every 10 steps).
+- Result, force loop vs fixed depth: duty 97.8% vs 61.6%; coverage 100% vs 71.9%; mean force error 1.05 N vs 2.79 N; peak 15.0 N vs 13.8 N.
+- Hardware: code complete and dry-rehearsed; prototype cost target ₹50–80k.
+- License: Apache-2.0. Third-party attribution in [NOTICE](NOTICE).
+
+## Contact
+
+Salik Shah — https://github.com/salikshah — salik.shah@gmail.com

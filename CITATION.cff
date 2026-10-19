@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "WallFin: open-source wall-finishing robot"
+type: software
+authors:
+  - family-names: Shah
+    given-names: Salik
+repository-code: "https://github.com/salikshah/wall-painter-robot"
+url: "https://github.com/salikshah/wall-painter-robot"
+license: Apache-2.0
+version: 1.0.0
+date-released: 2026-10-19
+abstract: >-
+  WallFin is a simulation-first wall-finishing robot project. A small
+  SO-101-style arm on a rail holds a 5 N sanding force against a test wall
+  through a seam, a lean and a screw head. The repository contains the
+  MuJoCo simulation, force controller, acceptance tests, 1080p demos and a
+  dry-rehearsed real-arm stack for Feetech STS3215 servos.
+keywords:
+  - wall finishing
+  - sanding
+  - drywall
+  - force control
+  - admittance control
+  - robotics
+  - MuJoCo
+  - sim-to-real
