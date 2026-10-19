@@ -11,10 +11,12 @@
 **WallFin is a robot that presses a sanding pad against drywall with a steady 5 N push and sweeps the whole wall without gaps.** This repository is the full stack: a repeatable MuJoCo simulation, a 50 Hz force loop, a real-arm implementation for Feetech STS3215 servos, acceptance tests, and a 1080p film. The demo sands drywall; the same loop will carry a roller, a sprayer and corner tools.
 
 <p align="center">
-  <video src="https://salikshah.github.io/wall-painter-robot/wallfin_final_film.mp4" poster="https://raw.githubusercontent.com/salikshah/wall-painter-robot/main/docs/wallfin_main_cover.png" controls width="900" preload="metadata" playsinline></video>
+  <a href="https://salikshah.github.io/wall-painter-robot/wallfin_final_film.mp4">
+    <img src="https://raw.githubusercontent.com/salikshah/wall-painter-robot/main/docs/wallfin_main_cover.png" alt="WallFin film cover" width="900">
+  </a>
 </p>
 
-<p align="center"><a href="docs/wallfin_final_film.mp4"><b>▶ Watch the 1:48 film</b></a> · 1080p50 · with sound</p>
+<p align="center"><a href="https://salikshah.github.io/wall-painter-robot/wallfin_final_film.mp4"><b>Watch the 1:48 film</b></a> · 1080p50 · with sound</p>
 
 > **Status — October 2026.** WallFin is a proof of concept. The simulation is complete and reproducible; the real-arm code is dry-rehearsed. No physical hardware exists yet. A physical prototype is estimated to take about 3 months to build, followed by dust extraction, calibration, safety and pilots.
 
