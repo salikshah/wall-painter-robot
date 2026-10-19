@@ -16,9 +16,9 @@
   </a>
 </p>
 
-<p align="center"><a href="https://salikshah.github.io/wall-painter-robot/wallfin_final_film.mp4"><b>Watch the 1:48 film</b></a> · 1080p50 · with sound</p>
+<p align="center"><a href="https://salikshah.github.io/wall-painter-robot/wallfin_final_film.mp4"><b>Watch the 1:48 film</b></a></p>
 
-> **Status — October 2026.** WallFin is a proof of concept. The simulation is complete and reproducible; the real-arm code is dry-rehearsed. No physical hardware exists yet. A physical prototype is estimated to take about 3 months to build, followed by dust extraction, calibration, safety and pilots.
+> **Status — October 2026.** WallFin is a proof of concept. The simulation is complete and reproducible; the real-arm code is dry-rehearsed. You can build a physical prototype in ~3 months with a small team, or vibe-manufacture it all by yourself, followed by dust extraction, calibration, safety and pilots.
 
 ## What it does
 
