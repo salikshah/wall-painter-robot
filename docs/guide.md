@@ -350,4 +350,4 @@ Further reading:
 
 If you build something with this, or find a wall that breaks the loop, tell me. That is how the next version gets better.
 
-— Salik Shah · [@salikshah](https://github.com/salikshah) · [salik.shah@gmail.com](mailto:salik.shah@gmail.com)
+— Salik Shah · [@salikshah](https://github.com/salikshah) · [LinkedIn](https://www.linkedin.com/in/salikshah/) · [salik.shah@gmail.com](mailto:salik.shah@gmail.com)

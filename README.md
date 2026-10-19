@@ -351,6 +351,7 @@ WallFin is released under the **Apache License 2.0**. See [LICENSE](LICENSE) and
 **Salik Shah**
 
 - GitHub: [@salikshah](https://github.com/salikshah)
+- LinkedIn: [in/salikshah](https://www.linkedin.com/in/salikshah/)
 - X: [@salik](https://x.com/salik)
 - Email: [salik.shah@gmail.com](mailto:salik.shah@gmail.com)
 

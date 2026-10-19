@@ -46,4 +46,4 @@ Canonical fingerprints: `ctl5 = e208219d5ea24829`, `base5 = 804c7deb8551ad7d`.
 
 ## Contact
 
-Salik Shah — https://github.com/salikshah — salik.shah@gmail.com
+Salik Shah — https://github.com/salikshah — https://www.linkedin.com/in/salikshah/ — salik.shah@gmail.com
